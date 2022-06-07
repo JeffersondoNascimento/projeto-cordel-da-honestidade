@@ -1,0 +1,101 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+html body {
+    min-height: 100vh;
+}
+
+:root {
+    --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte02: 'Passion One', 'cursive';
+    --fonte03: 'Caveat', 'cursive';
+}
+
+header {
+    font-family: var(--fonte02);
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px 10px 30px 10px;
+}
+
+header h1 {
+    font-size: 7vw;
+}
+
+header p {
+    font-family: var(--fonte01);
+    padding-top: 5px;
+}
+
+header a  {
+    color: white;
+    text-decoration: none;
+} 
+
+header a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+section.normal {
+    font-family: var(--fonte03);
+    font-size: 5vw;
+    background-color: white;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    
+}
+
+section.imagem {
+    font-family: var(--fonte03);
+    background-color: rgba(0, 0, 0, 0.373);
+    color: white;
+    font-size: 5vw;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+section.imagem p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.107);
+    padding: 0px 1px 0px 8px;
+}
+
+#img1{
+    background-image: url('../imagens/pexels-sebastian-voortman-189349.jpg');
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer {
+    font-family: var(--fonte01);
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+footer a {
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
